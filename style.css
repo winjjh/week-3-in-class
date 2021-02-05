@@ -3,6 +3,32 @@
     src: url("./assets/lilgrotesk_regular.woff") format("woff");
   }
 
+  @font-face {
+    font-family: "lilgrotesk Bold";
+    src: url("./assets/lilgrotesk_bold.woff") format("woff");
+  }
+
   h1{
       font-family: "lilgrotesk regular";
   }
+
+  h2 {
+      font-family: "lilgrotesk bold";
+  }
+
+  .paragraph {
+    font-family: "lilgrotesk regular";
+    font-size: 50px;
+    color: red;
+    transform: rotate(10deg);
+  }
+
+  .blue {
+      color: blue;
+      border-bottom: 1px solid blue;
+      font-size: 80px;
+    }
+
+    .invisible:hover {
+        opacity: 0;
+        }
